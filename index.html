@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/bootstrap-combobox.css" rel="stylesheet">
+   
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: white;">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <div id = "logo"><img src="images/logo.png"></div>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+         <div style="margin-left: 50%;"><img src="images/logo1.png"></div>
+        </div>
+      </div>
+    </nav>
+    <header class="text-white" style="background-color: #032d6c;">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8"> 
+          <h1>Find a lawyer of your Legal Issue</h1>
+          <h3>Fast, Free and Confidential</h3>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-xs-12 col-md-8"></div>
+          <div class="col-xs-6 col-md-4">Clients Review</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <label>Enter Zip Code</label>
+          </div>
+          <div class="col-xs-6 col-md-4"></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <input type="text" class="form-control" id="zip_code">
+          </div>
+          <div class="col-xs-6 col-md-4"></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <label>Choose Category</label>
+          </div>
+          <div class="col-xs-6 col-md-4"></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+          <select class="combobox form-control" id = "category">
+            <option></option>
+            <option value="F">Family</option>
+            <option value="C">Criminal Defense</option>
+            <option value="B">Business</option>
+            <option value="PI">Personal Injury</option>
+            <option value="BF">Bankcruptcy and Finances</option>
+          </select>
+           
+          </div>
+          <div class="col-xs-6 col-md-4"></div>
+        </div>
+     
+      </div>
+    </header>
+
+
+
+    <!-- Footer -->
+    <footer class="py-5">
+        <div class = "container">
+            <div class = "row">
+            <div class="col-md-4">
+                <div><img src="images/logo3.png"></div>
+
+            </div>
+            <div class="col-md-4">
+              <ul>
+                <li style="display: inline;">User Agreement</li>
+                <li style="display: inline;">Privacy Policy </li>
+                <li style="display: inline;">Site Map</li>
+              </ul>
+            </div>
+            
+            <div class="col-md-4" style="left: 210px;">
+                <div><img src="images/bbb.png"></div>
+                <div><img src="images/truste.png"></div>
+            </div>
+           </div>
+        </div>
+        
+       <!--  <div class = "row">
+              <div><img src="images/logo3.png"></div>
+              <div><img src="images/bbb.png"></div>
+              <div><img src="images/truste.png"></div>
+        </div>
+       -->
+
+      
+      
+    
+      <div class="container">
+
+        <p class="m-0 text-center text-black">Copyright 1999-2016 LegalMatch. All rights reserved. LegalMatch&copy;,</p>
+        <p clas ="m-0 text-center text-black" style="margin-left: 22%">the LegalMatch logo, and the tradedress are trademarks of LegalMatch. Patents Pending.</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+ 
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Which Family Cause Apply To Your Cause </h4>
+        </div>
+        <div class="modal-body">
+          <form class = "form-control">
+            <div class="col-xs-6 col-md-8">
+
+              <label class="checkbox-inline"><input type="checkbox" value="">Adoptions</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Child Support</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Guardianship</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Separtions</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Child Custody and Visitation</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Divorce</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Paternity</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Spousal Support of Alimony</label>
+            </div>
+            </form>
+        </div>
+        <div class="modal-footer" style="margin-right: 200px;">  
+            <button type="button" class="btn btn-primary btn-lg" id="find">Find A Lawyer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Which Family Cause Apply To Your Cause </h4>
+        </div>
+        <div class="modal-body">
+          <form class = "form-control">
+            <div class="col-xs-6 col-md-8">
+
+              <label class="checkbox-inline"><input type="checkbox" value="">Adoptions</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Child Support</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Guardianship</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Separtions</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Child Custody and Visitation</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Divorce</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Paternity</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Spousal Support of Alimony</label>
+            </div>
+            </form>
+        </div>
+        <div class="modal-footer" style="margin-right: 180px;">  
+            <button type="button" class="btn btn-primary btn-lg" id="find">Find A Lawyer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    
+    
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    
+  
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
+    
+    <script src="js/jquery.geocomplete.js"></script>
+    <script type="text/javascript">
+
+    $(document).ready( function ()
+    {
+      $("input").geocomplete();  // Option 1: Call on element.
+      $('#category').change(function()
+      {
+        var option = $(this).find('option:selected').val();
+         $("#myModal").modal();
+      }); 
+    });
+    </script>
+
+
+  </body>
+
+</html>
